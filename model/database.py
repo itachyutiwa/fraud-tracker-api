@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-import psycopg2
+# import psycopg2
 import os
 from pathlib import Path
 from dotenv import load_dotenv
