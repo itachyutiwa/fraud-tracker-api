@@ -3,6 +3,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import psycopg2
 
 env_path= Path('../')/'.env'
 load_dotenv(dotenv_path=env_path)
